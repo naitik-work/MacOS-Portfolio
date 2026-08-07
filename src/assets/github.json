@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45f?w=1200&auto=format&fit=crop&q=80",
+    "title": "E-Commerce Store",
+    "description": "A modern full-stack e-commerce application with product listings, shopping cart, secure authentication, and Stripe payment integration.",
+    "tags": ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+    "repoLink": "https://github.com/yourusername/ecommerce-store",
+    "demoLink": "https://ecommerce-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&auto=format&fit=crop&q=80",
+    "title": "Task Manager",
+    "description": "A productivity app that helps users organize daily tasks with drag-and-drop functionality, reminders, and progress tracking.",
+    "tags": ["React", "Firebase", "Tailwind CSS"],
+    "repoLink": "https://github.com/yourusername/task-manager",
+    "demoLink": "https://task-manager-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&auto=format&fit=crop&q=80",
+    "title": "Weather Dashboard",
+    "description": "A responsive weather application that displays real-time weather forecasts using an external weather API.",
+    "tags": ["JavaScript", "HTML", "CSS", "REST API"],
+    "repoLink": "https://github.com/yourusername/weather-dashboard",
+    "demoLink": "https://weather-dashboard-demo.netlify.app"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=80",
+    "title": "Personal Portfolio",
+    "description": "A responsive developer portfolio showcasing projects, skills, and contact information with smooth animations.",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "repoLink": "https://github.com/yourusername/portfolio",
+    "demoLink": "https://portfolio-demo.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop&q=80",
+    "title": "Real-Time Chat App",
+    "description": "A real-time messaging platform featuring private chats, online status, typing indicators, and media sharing.",
+    "tags": ["React", "Socket.io", "Node.js", "MongoDB"],
+    "repoLink": "https://github.com/yourusername/chat-app",
+    "demoLink": "https://chat-app-demo.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&auto=format&fit=crop&q=80",
+    "title": "Expense Tracker",
+    "description": "A finance management application for tracking income, expenses, and monthly spending through interactive charts.",
+    "tags": ["React", "Chart.js", "Local Storage"],
+    "repoLink": "https://github.com/yourusername/expense-tracker",
+    "demoLink": "https://expense-tracker-demo.netlify.app"
+  }
+]
