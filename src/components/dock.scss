@@ -53,6 +53,7 @@
 
     .icon:hover{
         transform: scale(1.25) translateY(-35%);
+        cursor: pointer;
     }
 
     .icon:hover+.icon, //implies the icon hovered and the very next icon.
