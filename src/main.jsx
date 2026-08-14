@@ -1,4 +1,8 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-
-createRoot(document.getElementById("root")).render(<App />);
+import WindowContextProvider from "./context/WindowContext.jsx";
+createRoot(document.getElementById("root")).render(
+  <WindowContextProvider>
+    <App />
+  </WindowContextProvider>,
+);

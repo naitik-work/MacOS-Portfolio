@@ -2,6 +2,7 @@ import React from "react";
 import MacWindow from "./MacWindow";
 import githubData from "../../assets/github.json";
 import "./github.scss";
+
 const GitCard = ({
   data = {
     id: 1,
@@ -19,8 +20,10 @@ const GitCard = ({
       <h1>{data.title}</h1>
       <p className="description">{data.description}</p>
       <div className="tags">
-        {data.tags.map((tag) => (
-          <p className="tag">{tag}</p>
+        {data.tags.map((tag, index) => (
+          <p key={index} className="tag">
+            {tag}
+          </p>
         ))}
       </div>
       <div className="urls">
@@ -31,12 +34,12 @@ const GitCard = ({
   );
 };
 
-const Github = () => {
+const Github = ({ windowName }) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName}>
       <div className="cards">
         {githubData.map((project) => {
-          return <GitCard data={project} />;
+          return <GitCard key={project.id} data={project} />;
         })}
       </div>
     </MacWindow>

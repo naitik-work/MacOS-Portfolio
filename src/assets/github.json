@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45f?w=1200&auto=format&fit=crop&q=80",
+    "image": "https://www.vocso.com/blog/wp-content/uploads/2022/02/eCommerce-Website-Features-1920-x-1080.jpg",
     "title": "E-Commerce Store",
     "description": "A modern full-stack e-commerce application with product listings, shopping cart, secure authentication, and Stripe payment integration.",
     "tags": ["React", "Node.js", "MongoDB", "Express", "Stripe"],
